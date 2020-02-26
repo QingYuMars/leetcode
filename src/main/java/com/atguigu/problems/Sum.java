@@ -26,7 +26,7 @@ public class Sum {
         }
         return null;
     }
-
+    //以后遇到双重for循环先考虑用map代替一层
     public int[] towSum_2(int[] nums,int target){
         Map<Integer,Integer> map = new HashMap<Integer, Integer>();
         for (int i=0;i<nums.length;i++){
